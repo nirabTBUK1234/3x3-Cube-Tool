@@ -1,0 +1,48 @@
+Orientation: White on top (U), Green facing front (F)
+Color legend: U=White  D=Yellow  F=Green  B=Blue  L=Orange  R=Red
+Position codes: U/R/F/D/L/B = centers, 2 letters = edges, 3 letters = corners
+============================================================
+
+LINE:
+    ELL CASE: NO
+    Corners:
+    ULB -> ULB  (White/Orange/Blue)  [TWISTED]
+    URB -> DRB  (White/Red/Blue)  [TWISTED]
+    ULF -> URF  (White/Green/Orange)  [TWISTED]
+    URF -> DRF  (White/Red/Green)  [TWISTED]
+    DRF -> DLF  (Red/Green/Yellow)  [TWISTED]
+    DRB -> URB  (Red/Yellow/Blue)  [TWISTED]
+    DLF -> ULF  (Green/Yellow/Orange)  [TWISTED]
+    DLB -> DLB  (Yellow/Orange/Blue)  [TWISTED]
+    Edges:
+    UB -> BL  (White/Blue)  [ORIENTED]
+    UR -> UB  (White/Red)  [FLIPPED]
+    UF -> UR  (White/Green)  [FLIPPED]
+    BR -> BR  (Red/Blue)  [FLIPPED]
+    DF -> DF  (Green/Yellow)  [FLIPPED]
+    DL -> UF  (Yellow/Orange)  [ORIENTED]
+    DB -> DL  (Yellow/Blue)  [ORIENTED]
+    BL -> DB  (Orange/Blue)  [ORIENTED]
+
+LINEI:
+    ELL CASE: NO
+    Corners:
+    ULB -> URB  (White/Orange/Blue)  [TWISTED]
+    URB -> DRB  (White/Red/Blue)  [TWISTED]
+    ULF -> ULF  (White/Green/Orange)  [TWISTED]
+    URF -> DRF  (White/Red/Green)  [TWISTED]
+    DRF -> URF  (Red/Green/Yellow)  [TWISTED]
+    DRB -> DLB  (Red/Yellow/Blue)  [TWISTED]
+    DLF -> DLF  (Green/Yellow/Orange)  [TWISTED]
+    DLB -> ULB  (Yellow/Orange/Blue)  [TWISTED]
+    Edges:
+    UB -> UR  (White/Blue)  [FLIPPED]
+    UL -> BR  (White/Orange)  [FLIPPED]
+    UR -> UF  (White/Red)  [FLIPPED]
+    BR -> DR  (Red/Blue)  [FLIPPED]
+    DR -> BL  (Red/Yellow)  [ORIENTED]
+    DF -> DL  (Green/Yellow)  [FLIPPED]
+    DL -> UB  (Yellow/Orange)  [ORIENTED]
+    DB -> DB  (Yellow/Blue)  [FLIPPED]
+    BL -> UL  (Orange/Blue)  [ORIENTED]
+
